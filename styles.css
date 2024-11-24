@@ -1,0 +1,114 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header Section */
+.header {
+  background: url('header-bg.jpg') no-repeat center center/cover;
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.header-content {
+  max-width: 600px;
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Program Information Section */
+.program-info {
+  padding: 50px 20px;
+  background: #f9f9f9;
+}
+
+.program-info h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.info-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.info-content div {
+  flex: 1;
+  margin: 10px;
+  min-width: 250px;
+}
+
+/* Contact Section */
+.contact {
+  padding: 50px 20px;
+  background: white;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 5px;
+}
+
+form input, form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+form .btn {
+  align-self: flex-start;
+}
+
+.contact-details {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Footer Section */
+.footer {
+  text-align: center;
+  padding: 10px;
+  background: #333;
+  color: white;
+}
